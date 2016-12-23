@@ -3,7 +3,7 @@ class PolyTreeNode
 
   attr_reader :children, :value, :parent
 
-  def initialize(value=nil)
+  def initialize(value = nil)
     @value = value
     @parent = nil
     @children = []
